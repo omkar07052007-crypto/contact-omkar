@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 0 64px;
+    font-size: clamp(2.4rem, 7vw, 4rem);
+    line-height: 1.12;
+    letter-spacing: -1.5px;
+}
+
+.intro {
+    margin: 0 0 52px;
+    color: #555;
+    font-size: 1.35rem;
+    line-height: 1.6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0 0 14px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 44px;
+    padding: 18px 20px;
+    border: 1px solid #aaa;
+    border-radius: 14px;
+    font: inherit;
+    font-size: 1.15rem;
+    color: #222;
+    background: #fff;
+}
+
+input {
+    min-height: 68px;
+}
+
+textarea {
+    min-height: 220px;
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #777;
+    outline-offset: 2px;
+}
+
+button {
+    align-self: flex-start;
+    padding: 18px 30px;
+    border: 0;
+    border-radius: 14px;
+    background: #555;
+    color: #fff;
+    font: inherit;
+    font-size: 1.15rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 22px;
+    }
+
+    h1 {
+        margin-bottom: 44px;
+    }
+
+    .intro {
+        margin-bottom: 38px;
+        font-size: 1.15rem;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 32px;
+    }
+}

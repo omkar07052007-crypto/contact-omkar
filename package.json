@@ -1,0 +1,12 @@
+{
+  "name": "contact-omkar-assignment-5",
+  "version": "1.0.0",
+  "description": "Simple contact form using HTML, CSS, Node.js and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
